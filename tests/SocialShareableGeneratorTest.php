@@ -60,6 +60,20 @@ class SocialShareableGeneratorTest extends TestCase
     }
 
     #[Test]
+    public function x_method_returns_same_as_twitter_method(): void
+    {
+        $url = 'https://escuela.it';
+        $title = 'My Awesome Article';
+
+        $generator = SocialShareableGenerator::for($url, $title);
+
+        $xUrl = $generator->x();
+        $twitterUrl = $generator->twitter();
+
+        $this->assertEquals($xUrl, $twitterUrl);
+    }
+
+    #[Test]
     public function can_generate_facebook_share_url(): void
     {
         $url = 'https://escuela.it';

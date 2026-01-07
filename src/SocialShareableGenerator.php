@@ -29,6 +29,11 @@ class SocialShareableGenerator
         return "https://x.com/intent/tweet?{$query}";
     }
 
+    public function twitter(array $params = []): string
+    {
+        return $this->x($params);
+    }
+
     public function facebook(array $params = []): string
     {
         $queryParams = array_merge([

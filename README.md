@@ -206,7 +206,7 @@ composer test
 ## Requirements
 
 - PHP 8.1 or higher
-- Laravel 10, 11, or 12
+- Laravel 9, 10, 11, or 12
 - illuminate/support package
 
 ## Changelog

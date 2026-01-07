@@ -3,14 +3,13 @@
   "version": "1.0.0",
   "description": "Laravel Package to create shareable content in some social networks.",
   "license": "ISC",
-  "author": "",
+  "author": "Miguel Angel Alvarez",
   "type": "commonjs",
   "main": "index.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "dev": "vite",
     "build": "vite build"
   },
   "devDependencies": {

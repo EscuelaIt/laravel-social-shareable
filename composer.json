@@ -2,12 +2,21 @@
     "name": "escuelait/laravel-social-shareable",
     "version": "1.0.0",
     "description": "Create URLs to share content vía social networks",
+    "keywords": [
+        "escuelait",
+        "share",
+        "social-network",
+        "shareable"
+    ],
     "type": "library",
     "license": "MIT",
+    "homepage": "https://github.com/EscuelaIt/laravel-social-shareable",
     "authors": [
         {
-            "name": "midesweb",
-            "email": "malvarez@desarrolloweb.com"
+            "name": "Miguel Angel Alvarez",
+            "email": "miguel@escuela.it",
+            "homepage": "https://escuela.it",
+            "role": "Developer"
         }
     ],
     "autoload": {

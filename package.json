@@ -1,0 +1,23 @@
+{
+  "name": "laravel-social-shareable",
+  "version": "1.0.0",
+  "description": "Laravel Package to create shareable content in some social networks.",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@dile/iconlib": "^1.0.0",
+    "@dile/ui": "^2.9.0",
+    "laravel-vite-plugin": "^2.0.1",
+    "lit": "^3.3.2",
+    "vite": "^7.3.0"
+  }
+}

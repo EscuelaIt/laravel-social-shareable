@@ -1,0 +1,21 @@
+.shareable-box {
+    border: 2px solid #cdcdcdff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: #fff;
+    display: flex;
+    gap: 0.5rem;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    flex-wrap: wrap;
+}
+
+.shareable-box > * {
+    flex-shrink: 0;
+    min-width: 0;
+}
+
+.shareable-box:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}

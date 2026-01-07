@@ -1,0 +1,12 @@
+{
+  "resources/assets/js/shareable-widget.js": {
+    "file": "assets/shareable-widget.js",
+    "name": "shareable-widget",
+    "src": "resources/assets/js/shareable-widget.js",
+    "isEntry": true
+  },
+  "style.css": {
+    "file": "assets/laravel-social-shareable.css",
+    "src": "style.css"
+  }
+}

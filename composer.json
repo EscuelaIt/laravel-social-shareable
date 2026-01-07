@@ -1,6 +1,5 @@
 {
     "name": "escuelait/laravel-social-shareable",
-    "version": "1.0.0",
     "description": "Create URLs to share content vía social networks",
     "keywords": [
         "escuelait",

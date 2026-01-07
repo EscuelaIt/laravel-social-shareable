@@ -33,6 +33,12 @@ Publish the configuration file:
 php artisan vendor:publish --provider="Escuelait\SocialShareable\SocialShareableServiceProvider"
 ```
 
+Or, if you only want to publish the configuration file:
+
+```bash
+php artisan vendor:publish --tag=social-shareable-config
+```
+
 Update your `.env` file with optional Facebook App ID:
 
 ```env

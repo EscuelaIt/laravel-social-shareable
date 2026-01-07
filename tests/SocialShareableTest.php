@@ -1,10 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Escuelait\SocialShareable\Tests;
 
+use Escuelait\SocialShareable\SocialShareable;
 use Orchestra\Testbench\TestCase;
 use PHPUnit\Framework\Attributes\Test;
-use Escuelait\SocialShareable\SocialShareable;
 
 class SocialShareableTest extends TestCase
 {
@@ -14,7 +16,7 @@ class SocialShareableTest extends TestCase
     {
         parent::setUp();
 
-        $this->model = new class {
+        $this->model = new class () {
             use SocialShareable;
             public $url;
             public $title;

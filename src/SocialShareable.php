@@ -1,8 +1,8 @@
 <?php
 
-namespace Escuelait\SocialShareable;
+declare(strict_types=1);
 
-use Escuelait\SocialShareable\SocialShareableGenerator;
+namespace Escuelait\SocialShareable;
 
 trait SocialShareable
 {

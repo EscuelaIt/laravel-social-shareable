@@ -1,8 +1,9 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Escuelait\SocialShareable;
 
-use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 
 class SocialShareableGenerator
@@ -10,7 +11,8 @@ class SocialShareableGenerator
     public function __construct(
         protected string $url,
         protected string $title,
-    ) {}
+    ) {
+    }
 
     public static function for(string $url, string $title): static
     {

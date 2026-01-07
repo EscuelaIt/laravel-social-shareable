@@ -1,10 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace EscuelaIT\Test;
 
+use Escuelait\SocialShareable\SocialShareableGenerator;
 use Orchestra\Testbench\TestCase;
 use PHPUnit\Framework\Attributes\Test;
-use Escuelait\SocialShareable\SocialShareableGenerator;
 
 class SocialShareableGeneratorTest extends TestCase
 {
